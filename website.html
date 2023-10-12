@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>10A</title>
+    <meta name="description" content="A brief description of your business.">
+    <meta name="keywords" content="Your, Keywords, Here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Create a separate CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>links</h1>
+                <li><a href="https://www.facebook.com/groups/250480266128646/?mibextid=oMANbw">grouplink</a></li>
+                <li><a href="https://www.facebook.com/saina.benn">feedback link</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>10A</h2>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>bid nar anh guchin heduule bj bgd odoo 28 bolson bidend tuslaaach.</p>
+    </section>
+    
+    <section id="services">
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>АУБ:89999980 Ангийн дарга:86971959.</p>
+    </section>
+    
+    <section id="clock">
+        <h2>Current Time</h2>
+        <p id="clock-time"></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 10A angi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript function to update the clock
+        function updateClock() {
+            const now = new Date();
+            const time = now.toLocaleTimeString();
+            document.getElementById("clock-time").textContent = time;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+        updateClock(); // Call immediately to display the time
+    </script>
+</body>
+</html>
